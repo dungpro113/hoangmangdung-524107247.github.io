@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+#logo_dau {
+  width: 110px;
+  height: auto;
+  justify-content: left;
+}
+#dieuhuong_header_1 {
+  background-color: #f3763e;
+  padding-bottom: 1px;
+  padding-top: 10px;
+}
+.container_header_1 li {
+  max-width: 1400px;
+  margin: auto;
+  padding: 1px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.search-form-header input[type="search"] {
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  outline: none;
+}
+.search-form-header button {
+  height: 40px;
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #0099ff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+}
+.search-form-header button:hover {
+  color: white;
+  transition: 0.3s;
+}
+.search-form-header input[type="search"]:hover {
+  outline: none;
+  box-shadow: 0 0 5px #0099ff;
+  transition: 0.3s;
+}
+.container_menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+}
+.container_menu > li:hover {
+  background-color: #e7ac85;
+  transition: 0.3s;
+  padding: 15px 4px;
+  border-radius: 8px 8px 8px 8px;
+}
+.container_menu > li {
+  padding: 10px 4px;
+  position: relative;
+  display: inline-block;
+}
+.container_menu li:hover .submenu {
+  display: block;
+}
+.submenu {
+  position: absolute;
+  display: none;
+  background-color: #f5824c;
+  padding: 10px 20px;
+  line-height: 20px;
+  width: 200px;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
+.submenu ul {
+  flex-direction: column;
+}
+.submenu ul li {
+  padding: 10px 15px;
+}
+.submenu ul li:hover {
+  background-color: #e7d2c4;
+  transition: 0.3s;
+  border-radius: 8px 8px 8px 8px;
+}
+.item {
+  list-style: none;
+}
+#giohang_header_1 {
+  padding: 10px 15px;
+  font-size: 16px;
+  height: 40px;
+  border-radius: 8px 8px 8px 8px;
+  margin: 2px 5px;
+  background-color: #f5824c;
+  border: 1px solid #010101;
+}
+#giohang_header_1:hover {
+  background-color: #e88f54;
+  color: white;
+  transition: 0.3s;
+}
+#dangnhap_header_1:hover {
+  background-color: #d7c6ba;
+  padding: 10px 10px;
+  border-radius: 8px 8px 8px 8px;
+  color: white;
+  transition: 0.4s;
+}
+#lienhe_header_1:hover {
+  background-color: #d7c6ba;
+  padding: 10px 10px;
+  border-radius: 8px 8px 8px 8px;
+  color: white;
+  transition: 0.4s;
+}
+.container_menu {
+  background-color: #ee4116;
+}
+.footer {
+  background-color: #f3763e;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+#gmail {
+  color: black;
+  font-size: normal;
+}
+.col-md-4 li {
+  margin-left: 20px;
+}
+.row li {
+  font-size: 15px;
+}
+.row li a {
+  color: rgb(79, 71, 71);
+}
+#logo_footer {
+  width: 70px;
+  height: auto;
+  justify-content: left;
+  margin-left: 20px;
+}
+hr {
+  border: 1px solid #2b2929;
+  margin-top: 20px;
+  width: 90%;
+  text-align: center;
+  margin-left: 50px;
+}
+.row {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+h5 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
+}
+#row_bot_footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+#row_bot_footer li {
+  list-style: none;
+}
+#row_top_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.add_infor {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.add_infor {
+  list-style: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.add_infor ul li img {
+  width: 50px;
+  height: 50px;
+}
+.add_infor :hover {
+  transition: 0.3s;
+}
+#vedau {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #e15f23;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#vedau:hover {
+  background-color: #f5824c;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.addbot:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+#backtotop {
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+  float: left;
+  width: 36px;
+  text-align: center;
+  line-height: 33px;
+}
+.produrt-gallary-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+#row_bot_footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container_sanpham {
+  display: flex;
+  gap: 8px;
+}

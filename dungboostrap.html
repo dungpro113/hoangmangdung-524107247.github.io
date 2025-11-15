@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dungpro</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/style5.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="/media/ảnh/logocuadung.png" />
+  </head>
+  <body>
+    <!-- phần  menu đầu trang web -->
+    <nav id="dieuhuong_header_1">
+      <div class="container_header_1">
+        <ul>
+          <li>
+            <!-- logo -->
+            <a href="#"
+              ><img id="logo_dau" src="/media/ảnh/logocuadung.png"
+            /></a>
+          </li>
+          <li id="dia_chi">
+            <!-- địa chỉ -->
+            <a>Địa Chỉ <i class="fa-solid fa-caret-down"></i></a>
+          </li>
+          <li>
+            <!-- tìm kiếm -->
+            <form class="search-form-header" action="#" method="get">
+              <input type="search" placeholder="tìm kiếm..." name="search" />
+              <button type="submit">Tìm Kiếm</button>
+            </form>
+          </li>
+          <li id="giohang">
+            <!-- giỏ hàng -->
+            <a href="#">
+              <button id="giohang_header_1">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="text_gh">Giỏ Hàng</span>
+              </button>
+            </a>
+          </li>
+          <!-- tài khoản -->
+          <li id="dangnhap_header_1">
+            <a href="/trang sau/dangnhap.html"
+              ><i class="fa-solid fa-circle-user"></i>
+              <span id="text_tk">Tài Khoản</span></a
+            >
+          </li>
+          <!-- liên hệ -->
+          <li id="lienhe_header_1">
+            <a href="#"><span id="text_lh"> Liên Hệ</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="dieuhuong_header_2">
+      <!-- phần menu chính -->
+      <div class="container_menu">
+        <li class="item box1">Danh Mục</li>
+        <li class="item box2"><a href="#">Trang Chủ</a></li>
+        <li class="item box3">
+          Thể Loại <i class="fa-solid fa-caret-down"></i>
+          <div class="submenu">
+            <ul class="menu2">
+              <li><a href="#">Trinh Thám</a></li>
+              <li><a href="#">Giả Tưởng</a></li>
+              <li><a href="#">Kinh Dị</a></li>
+              <li><a href="#">Tình Cảm</a></li>
+              <li><a href="#">Văn Học Việt Nam</a></li>
+              <li><a href="#">Văn Học Nước Ngoài</a></li>
+              <li><a href="#">Thiếu Nhi</a></li>
+              <li><a href="#">Tâm Lý</a></li>
+              <li><a href="#">Sách Giáo Khoa</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="item box4">
+          <a href="/trangsanpham/sanpham.html">Sản Phẩm</a>
+        </li>
+        <li class="item box5">
+          <a href="/tranggioithieu/gioithieu.html">Giới Thiệu</a>
+        </li>
+        <li class="item box6">
+          <a href="/trang tin tuc/trangtintuc.html" target="_blank">Tin Tức</a>
+        </li>
+      </div>
+    </nav>
+    <!-- phần sản phẩm -->
+    <h2>Sản Phẩm Mới Nhất</h2>
+    <div class="container_sanpham">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/media/ảnh/sachso1.jpg" class="card-img-top" alt="sach1">
+                    <div class="card-body">
+                        <h5 class="card-title">Delirium 1 - Bệnh Dịch Yêu </h5>
+                        <p class="card-text">Giá: 100.000 VND</p>
+                        <a href="#" class="btn btn-primary">Thêm Vào Giỏ Hàng</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/media/ảnh sách/hoiphuonhoNGf.jpg" class="card-img-top" alt="sach2">
+                    <div class="card-body">
+                        <h5 class="card-title">Hội Phượng Hoàng </h5>
+                        <p class="card-text">Giá: 120.000 VND</p>
+                        <a href="#" class="btn btn-primary">Thêm Vào Giỏ Hàng</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/media/ảnh sách/harry-potter-va-phong-chua-bi-mat-tap-2-tai-ban-2018.jpg" class="card-img-top" alt="sach2">
+                    <div class="card-body">
+                        <h5 class="card-title">Phòng Chứa Bí Mật </h5>
+                        <p class="card-text">Giá: 130.000 VND</p>
+                        <a href="#" class="btn btn-primary">Thêm Vào Giỏ Hàng</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="/media/ảnh sách/bo-chua-te-nhung-chiec-nhan-_3-tap-hop-c_0d799522c7cd45449e7e6e05d304674c.jpg" class="card-img-top" alt="sach2">
+                    <div class="card-body">
+                        <h5 class="card-title">Lord Of The Ring (full) </h5>
+                        <p class="card-text">Giá: 520.000 VND</p>
+                        <a href="#" class="btn btn-primary">Thêm Vào Giỏ Hàng</a>
+                    </div>  
+                </div>
+            </div>
+    </div>
+        <!-------------------------phần footer cuối trang------------------------------>
+        <footer class="footer">
+      <div class="container_footer">
+        <div id="row_top_footer" class="row">
+          <div class="bot bot1 col-md-3">
+            <img id="logo_footer" src="/media/ảnh/logocuadung.png" />
+          </div>
+          <div class="bot bot2 col-md-3">
+            <h5>Chứng nhận</h5>
+            <img class="h-16 w-auto" src="https://static.oreka.vn/d/_next/static/images/dadangky-87ad36d72b86471dda80744bb5a0329c.png" alt="bocongthuong" loading="lazy">
+          </div>
+          <div class="bot bot3 col-md-3">
+            <h5>Phương thức thanh toán</h5>
+            <img loading="lazy" src="https://static.oreka.vn/d/_next/static/images/visa-58401bb56c50049a3e4b928c8d562fd2.svg" alt="visa">
+            <img loading="lazy" src="https://static.oreka.vn/d/_next/static/images/vnpay-0f841d0b4c8157965bf02ffb2f56c17a.svg" alt="vnpay">
+            <img loading="lazy" src="https://static.oreka.vn/d/_next/static/images/momo-545c294f2ea7209254359efdfcbb4933.svg" alt="momo">
+            <img loading="lazy" src="https://static.oreka.vn/d/_next/static/images/ngan-luong-565f89d40d9b43985e3cf6cee661c997.svg" alt="ngân lượng">
+          </div>
+          <div class="bot bot4 col-md-3">
+            <h5>Dịch vụ giao hàng</h5>
+            <img loading="lazy" src="https://static.oreka.vn/d/_next/static/images/ghn-f89fc5a2da69727244a5ef610737c6e3.svg" alt="giao hàng nhanh">
+            <img loading="lazy" src="https://static.oreka.vn/d/_next/static/images/ninjavan-47a8597cfd26db9245475f63c1fa21cb.svg" alt="ninjavan">
+            <img loading="lazy" src="https://static.oreka.vn/d/_next/static/images/lazada-eac1506149b3cdb77dee711397c24bdc.svg" alt="lazada logistics">
+          </div>
+        </div>  
+          <hr>
+        <div id="row_bot_footer" class="row">
+          <div class="bot bot5  col-md-3">
+            <h5>Liên Hệ Với Chúng Tôi</h5>
+            <ul class="list-unstyled">
+              <li><i class="fa-solid fa-location-dot"></i><a href="#"> Bui Xa-Dong thanh- Kim Dong- Hung Yen</a></li>
+              <li><i class="fa-solid fa-phone"></i><a href="tel:0123 456 789"> 0123 4567 789</a></li>
+              <li><i class="fa-solid fa-envelope"></i><a href="mailto:dunglmao2505@gmail.com"> dunglmao2505@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="bot bot6  col-md-3">
+            <h5>Chính Sách Chung</h5>
+            <ul type="none" class="list-unstyled">
+              <li><a href="#">Chính Sách Vận Chuyển</a></li>
+              <li><a href="#">Chính Sách Đổi Trả</a></li>
+              <li><a href="#">Chính Sách Bảo Hành</a></li>
+              <li><a href="#">Chính Sách Thanh Toán</a></li>
+              <li><a href="#">Hành Vi Bị Cấm</a></li>
+            </ul>
+          </div>
+          <div class="bot bot7 col-md-3">
+            <h5>Chính Sách Chung</h5>
+            <ul type="none" class="list-unstyled">
+              <li><a href="#">Chính Sách Vận Chuyển</a></li>
+              <li><a href="#">Chính Sách Đổi Trả</a></li>
+              <li><a href="#">Chính Sách Bảo Hành</a></li>
+              <li><a href="#">Chính Sách Thanh Toán</a></li>
+              <li><a href="#">Hành Vi Bị Cấm</a></li>
+            </ul>
+          </div>
+          <div class="bot bot8 col-md-3">
+            <h5>Theo Dõi Chúng Tôi Trên</h5>
+            <a href="https://www.facebook.com/dung.hoangmanh.399826" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/dunghoang4814/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="add_infor">
+          <ul style="list-style: none;">  
+            <li class="addbot"><a href="https://www.facebook.com/dung.hoangmanh.399826" target="_blank"><img src="/media/ảnh/Facebook_Messenger_logo_2018.svg.png"></a>
+            </li>
+            <li id="vedau"><a href="#" id="backtotop" class="backtop"><i class="fa-solid fa-chevron-up"></i></a></li>
+          </ul>
+        </div>
+  </body>
+</html>
